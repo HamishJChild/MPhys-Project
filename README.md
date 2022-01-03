@@ -1,2 +1,10 @@
-# MPhys-Project
-LaTeX and PDF files for my Masters Thesis and Presentation
+# MPhys Project - Convolutional Neural Networks for the Classification of Galaxies based on their Morphology
+
+## ABSTRACT
+Having large catalogues of galaxies classified by their morphologies is essential in furthering the understanding of how galaxies have evolved. With future surveys looking to image millions of galaxies, current methods of classification will not be able to keep up with the rate of data releases. Due to this, new methods must be developed that can maintain a high level of accuracy whilst improving the speed of the process of clas- sification. I present an application of the methods of transfer learning and fine-tuning on a neural network that allows for accurate classifications of data with small training samples . 6 networks were trained on either the fashion MNIST or Nair & Abraham (NA10) datasets. A selection of networks were then fine-tuned on a small training sample from the EFIGI dataset, before being applied to the EFIGI testing sample for analysis. Applying a baseline network trained on just the small EFIGI training sample achieved an accuracy of 85.8%. Pre-training the network on the NA10 dataset and then fine-tuning the final two convolutional layers, as well as the dense layers, achieved the highest accuracy of 93.6%. Only fine-tuning the dense layers achieved an accuracy of 88.5%. Pre-training the network on the NA10 dataset and then fine-tuning the final two convolutional layers as well as the dense layers achieved the highest accu- racy of 93.6%, while only fine-tuning the dense layers achieved an accuracy of 88.5%. Pre-training on the fashion MNIST data achieved accuracies lower than the baseline. This demonstrates how using a combination of pre-training and specific fine-tuning methods can achieve a greater level of accuracy than just training on the small sam- ple. This removes the need for extensive visual classification to take place on future surveys, which will be crucial in reducing the time taken to analyse data.
+
+
+## Files contained
+- Neural Network used for classifying the galaxies.
+- Data used in the testing and training.
+- LaTeX and PDF files for my Masters Thesis and Presentation
