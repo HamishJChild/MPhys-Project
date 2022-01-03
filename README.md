@@ -6,5 +6,6 @@ Having large catalogues of galaxies classified by their morphologies is essentia
 
 ## Files contained
 - Neural Network used for classifying the galaxies.
-- Data used in the testing and training.
 - LaTeX and PDF files for my Masters Thesis and Presentation
+
+Data can be found on the [Sloan Digital Sky Survey Website for Data Release 14](https://www.sdss.org/dr14/data_access/) amd the [EFIGI website for the EFIGI data](https://www.astromatic.net/projects/efigi/)
